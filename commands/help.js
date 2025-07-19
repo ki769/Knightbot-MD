@@ -5,68 +5,68 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || '𝙐𝙉𝘽𝘼𝙉-𝘽𝙊𝙏'}*  
    Version: *${settings.version || '2.0.5'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Mr UNBANNED TECH'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-*Available Commands:*
+*𝘼𝙇𝙇𝙊𝙒𝙀𝘿 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎:*
 
 ╔═══════════════════╗
-🌐 *General Commands*:
-║ ➤ .help or .menu
-║ ➤ .ping
-║ ➤ .alive
-║ ➤ .tts <text>
-║ ➤ .owner
-║ ➤ .joke
-║ ➤ .quote
-║ ➤ .fact
-║ ➤ .weather <city>
-║ ➤ .news
-║ ➤ .attp <text>
-║ ➤ .lyrics <song_title>
-║ ➤ .8ball <question>
-║ ➤ .groupinfo
-║ ➤ .staff or .admins 
-║ ➤ .vv
-║ ➤ .trt <text> <lang>
-║ ➤ .ss <link>
-║ ➤ .jid
+🌐 *𝔾𝕖𝕟𝕖𝕣𝕒𝕝 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕤*:
+║ ᪣ .help or .menu
+║ ᪣ .ping
+║ ᪣ .alive
+║ ᪣ .tts <text>
+║ ᪣ .owner
+║ ᪣ .joke
+║ ᪣ .quote
+║ ᪣ .fact
+║ ᪣ .weather <city>
+║ ᪣ .news
+║ ᪣ .attp <text>
+║ ᪣ .lyrics <song_title>
+║ ᪣ .8ball <question>
+║ ᪣ .groupinfo
+║ ᪣ .staff or .admins 
+║ ᪣ .vv
+║ ᪣ .trt <text> <lang>
+║ ᪣ .ss <link>
+║ ᪣ .jid
 ╚═══════════════════╝ 
 
 ╔═══════════════════╗
-👮‍♂️ *Admin Commands*:
-║ ➤ .ban @user
-║ ➤ .promote @user
-║ ➤ .demote @user
-║ ➤ .mute <minutes>
-║ ➤ .unmute
-║ ➤ .delete or .del
-║ ➤ .kick @user
-║ ➤ .warnings @user
-║ ➤ .warn @user
-║ ➤ .antilink
-║ ➤ .antibadword
-║ ➤ .clear
-║ ➤ .tag <message>
-║ ➤ .tagall
-║ ➤ .chatbot
-║ ➤ .resetlink
-║ ➤ .welcome <on/off>
-║ ➤ .goodbye <on/off>
+👮‍♂️ *𝘼𝘿𝙈𝙄𝙉 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎*:
+║ ᯼ .ban @user
+║ ᯼ .promote @user
+║ ᯼ .demote @user
+║ ᯼ .mute <minutes>
+║ ᯼ .unmute
+║ ᯼ .delete or .del
+║ ᯼ .kick @user
+║ ᯼ .warnings @user
+║ ᯼ .warn @user
+║ ᯼ .antilink
+║ ᯼ .antibadword
+║ ᯼ .clear
+║ ᯼ .tag <message>
+║ ᯼ .tagall
+║ ᯼ .chatbot
+║ ᯼ .resetlink
+║ ᯼ .welcome <on/off>
+║ ᯼ .goodbye <on/off>
 ╚═══════════════════╝
 
 ╔═══════════════════╗
 🔒 *Owner Commands*:
-║ ➤ .mode
-║ ➤ .autostatus
-║ ➤ .clearsession
-║ ➤ .antidelete
-║ ➤ .cleartmp
-║ ➤ .setpp <reply to image>
-║ ➤ .autoreact
+║ ༕ .mode
+║ ༕ .autostatus
+║ ༕ .clearsession
+║ ༕ .antidelete
+║ ༕ .cleartmp
+║ ༕ .setpp <reply to image>
+║ ༕ .autoreact
 ╚═══════════════════╝
 
 ╔═══════════════════╗
@@ -137,7 +137,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-📥 *Downloader*:
+📥 *𝘿𝙊𝙒𝙉𝙇𝙊𝘿 𝙈𝙀𝙉𝙐*:
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ║ ➤ .instagram <link>
